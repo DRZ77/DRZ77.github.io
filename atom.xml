@@ -6,7 +6,7 @@
   <link href="https://drz77.github.io/atom.xml" rel="self"/>
   
   <link href="https://drz77.github.io/"/>
-  <updated>2025-12-17T12:41:52.668Z</updated>
+  <updated>2025-12-17T13:58:15.233Z</updated>
   <id>https://drz77.github.io/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://drz77.github.io/2025/12/16/C%E8%AF%AD%E8%A8%80%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8-%E6%9B%B4%E9%80%82%E5%90%88%E5%A4%A7%E4%B8%80%E5%AE%9D%E5%AE%9D%E4%BD%93%E8%B4%A8/"/>
     <id>https://drz77.github.io/2025/12/16/C%E8%AF%AD%E8%A8%80%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8-%E6%9B%B4%E9%80%82%E5%90%88%E5%A4%A7%E4%B8%80%E5%AE%9D%E5%AE%9D%E4%BD%93%E8%B4%A8/</id>
     <published>2025-12-16T11:13:16.000Z</published>
-    <updated>2025-12-17T12:41:52.668Z</updated>
+    <updated>2025-12-17T13:58:15.233Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>你好，朋友！听说你想学C语言，那你很厉害了。作者也想变得更加优秀，所以在学完C语言网课后想写这么一篇博文，及时对自己所学知识的复习巩固，也为想要学习C语言的同学提供一些素材和思路。这篇博文主要以知识点+代码练习的形式为大家呈现。另外，想要在B站上学习的同学如果时间充裕我推荐<strong>黑马程序眼</strong>&lt;【黑马程序员C语言零基础入门到精通全套视频教程，计算机二级C语言、专升本、考研、期末、嵌入式开发一套搞定】<a href="https://www.bilibili.com/video/BV1Xa4y1k7LU?vd_source=c11ef125db4f26b2cee6f94711b16729%3E">https://www.bilibili.com/video/BV1Xa4y1k7LU?vd_source=c11ef125db4f26b2cee6f94711b16729&gt;</a></p><h1 id="1-C语言入门"><a href="#1-C语言入门" class="headerlink" title="1.C语言入门"></a>1.C语言入门</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>你好，朋友！听说你想学C语言，那你很厉害了。作者也想变得更加优秀，所以在学完C语言网课后想写这么一篇博文，既是对自己所学知识的复习巩固，也为想要学习C语言的同学提供一些素材和思路。这篇博文主要以<strong>知识点+代码</strong>练习的形式为大家呈现，同时欢迎大家的批评与指正，让我们共同进步。另外，想要在B站上学习的同学如果时间充裕的话我推荐<strong>黑马程序员</strong>的课程，内容详细易懂。链接放这里了。<br><a href="https://www.bilibili.comvideobv1xa4y1k7luvd_source=c11ef125db4f26b2cee6f94711b16729/">https://www.bilibili.comvideoBV1Xa4y1k7LUvd_source=c11ef125db4f26b2cee6f94711b16729</a></p><h1 id="1-C语言入门"><a href="#1-C语言入门" class="headerlink" title="1.C语言入门"></a>1.C语言入门</h1><h2 id="1-1-环境的搭建"><a href="#1-1-环境的搭建" class="headerlink" title="1.1 环境的搭建"></a>1.1 环境的搭建</h2><h3 id="1-1-1-VS"><a href="#1-1-1-VS" class="headerlink" title="1.1.1 VS"></a>1.1.1 VS</h3><p>全名Microsoft Visual Studio 2022,简称VS,微软发布的一款较为好用的软件，最新版是2026版，当然也有其他版本号，这里推荐最新版（作者下载时没有2026版）,越新的版本越安全好用。如果你学习C语言的目的是为了个人使用和企业开发，这里作者强烈推荐VS，因为VS更加智能，开发效率更高。以下的代码练习也是用VS实现的。<br>以下是下载教程：</p><ol><li>打开官网<a href="https://www.microsoft.com/">https://www.microsoft.com/</a>，下滑到页面最下面，找<strong>开发人员与IT</strong>这一栏,点<strong>visual studi</strong>,直接免费下载</li><li>这里下载的是安装包，我们再继续安装，在弹出来的选项中，在<strong>工作负荷</strong>中勾选<strong>使用C++的桌面开发</strong>，其余的暂时不要勾选，在<strong>单个组件</strong>这一栏的组件是默认的，但是以防万一查看<strong>windows 11 SDK</strong>是否勾选，如果没有将其勾选，<strong>语言包</strong>勾选<strong>中文（简体）</strong>，<strong>安装位置</strong>的话可以看到这三项加一起有打十几GB了，建议不要放在C盘，可以自己定义。</li><li>最后点击<strong>安装</strong>，下载时间较长请耐心等待，下载后软件不在桌面，需要在菜单栏里面寻找，可以将其固定在桌面或任务栏</li></ol><h3 id="1-1-2-VC"><a href="#1-1-2-VC" class="headerlink" title="1.1.2 VC"></a>1.1.2 VC</h3><p>全名Microsoft Visual C++ 2010(学习版)，简称VC。如果大家学习C语言的目的是为了考试，比如计算机二级，专升本考试，期末考试等，这里作者建议使用VC，因为不仅许多考试的要求就是用VC，就连我们的教材，谭浩强老师编著的《C程序设计》一书中提到的开发工具也是VC。但是这个软件微软已经停止更新了，所以在官网里是找不到的，想要下载的朋友只能在别处找了。</p><h2 id="1-2-你的第一串代码-Hello-World"><a href="#1-2-你的第一串代码-Hello-World" class="headerlink" title="1.2 你的第一串代码-Hello World!"></a>1.2 你的第一串代码-Hello World!</h2><p>众所周知，不管是是python，java；还是C语言，PHP。咱们的第一行代码都是<strong>Hello World!</strong>,这个规矩来自<strong>丹尼斯·麦卡利斯泰尔·里奇（Dennis MacAlistair Ritchie）<strong>这位大佬编写的一本著作《C语言程序设计》，在这本书中的第一个程序代码就是展示一段话</strong>Hello World!</strong>，所以将这行代码作为程序员的启蒙代码，接下来让我们使用VS来做一个代码实现吧：</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;你好，朋友！听说你想学C语言，那你很厉害了。作者也想变得更加优秀，所以在学完C语言网课后想写这么一篇博文，及时对自己所学知识的复习巩固，也为</summary>
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;你好，朋友！听说你想学C语言，那你很厉害了。作者也想变得更加优秀，所以在学完C语言网课后想写这么一篇博文，既是对自己所学知识的复习巩固，也为</summary>
       
     
     
